@@ -1,0 +1,272 @@
+# Menu for Laser Harp
+
+# Control types:
+#  0 = enable/disable
+#  1 = full range number
+#  2 = instrument patch
+#  3 = key range
+#  4 = reverb type
+#  5 = chorus type
+#  6 = quantize type
+#  7 = scale type
+#  8 = drum kit
+#  9 = drum pattern
+# 10 = arpegiator pattern
+
+
+Channel options
+  Channel 1
+    Enable,C127,c1_en,0
+    Volume,C127,c1_vol,1
+    Pan,C64,c1_pan,1
+    Patch,C0,c1_patch,2
+    Reverb send,C0,c1_rev_send,1
+    Chorus send,C0,c1_cho_send,1
+    Fine tune,C64,c1_ft,1
+    Vibrate
+      Rate,C64,c1_vib_rate,1
+      Depth,C64,c1_vib_depth,1
+      Delay,C64,c1_vib_delay,1
+    Filter
+      Cutoff,C64,c1_filter_cutoff,1
+      Resonance,C64,c1_filter_res,1
+    Envelope
+      Attack,C64,c1_env_attack,1
+      Decay,C64,c1_env_decay,1
+      Release,C64,c1_env_release,1
+    Modulation
+      Pitch bend
+        Pitch,C66,c1_mod_bend_pitch,1
+        Filter cutoff,C64,c1_mod_bend_filter,1
+        Amplitude,C64,c1_mod_bend_amp,1
+        LFO pitch depth,C0,c1_mod_bend_lfo_pitch,1
+        LFO filter depth,C0,c1_mod_bend_lfo_filter,1
+        LFO amplitude depth,C0,c1_mod_bend_lfo_amp,1
+      Mod wheel
+        Pitch,C64,c1_mod_wheel_pitch,1
+        Filter cutoff,C64,c1_mod_wheel_filter,1
+        Amplitude,C64,c1_mod_wheel_amp,1
+        LFO pitch depth,C10,c1_mod_wheel_lfo_pitch,1
+        LFO filter depth,C0,c1_mod_wheel_lfo_filter,1
+        LFO amplitude depth,C0,c1_mod_wheel_lfo_amp,1
+      CC1
+        Pitch,C64,c1_mod_cc1_pitch,1
+        Filter cutoff,C64,c1_mod_cc1_filter,1
+        Amplitude,C64,c1_mod_cc1_amp,1
+        LFO pitch depth,C0,c1_mod_cc1_lfo_pitch,1
+        LFO filter depth,C0,c1_mod_cc1_lfo_filter,1
+        LFO amplitude depth,C0,c1_mod_cc1_lfo_amp,1
+      CC2
+        Pitch,C64,c1_mod_cc2_pitch,1
+        Filter cutoff,C64,c1_mod_cc2_filter,1
+        Amplitude,C64,c1_mod_cc2_amp,1
+        LFO pitch depth,C0,c1_mod_cc2_lfo_pitch,1
+        LFO filter depth,C0,c1_mod_cc2_lfo_filter,1
+        LFO amplitude depth,C0,c1_mod_cc2_lfo_amp,1
+    Key range
+      Lower,C0,c1_key_lower,3
+      Upper,C26,c1_key_upper,3
+    
+    
+  Channel 2
+    Enable,C127,c2_en,0
+    Volume,C127,c2_vol,1
+    Pan,C64,c2_pan,1
+    Patch,C0,c2_patch,2
+    Reverb send,C0,c2_rev_send,1
+    Chorus send,C0,c2_cho_send,1
+    Fine tune,C64,c2_ft,1
+    Vibrate
+      Rate,C64,c2_vib_rate,1
+      Depth,C64,c2_vib_depth,1
+      Delay,C64,c2_vib_delay,1
+    Filter
+      Cutoff,C64,c2_filter_cutoff,1
+      Resonance,C64,c2_filter_res,1
+    Envelope
+      Attack,C64,c2_env_attack,1
+      Decay,C64,c2_env_decay,1
+      Release,C64,c2_env_release,1
+    Modulation
+      Pitch bend
+        Pitch,C66,c2_mod_bend_pitch,1
+        Filter cutoff,C64,c2_mod_bend_filter,1
+        Amplitude,C64,c2_mod_bend_amp,1
+        LFO pitch depth,C0,c2_mod_bend_lfo_pitch,1
+        LFO filter depth,C0,c2_mod_bend_lfo_filter,1
+        LFO amplitude depth,C0,c2_mod_bend_lfo_amp,1
+      Mod wheel
+        Pitch,C64,c2_mod_wheel_pitch,1
+        Filter cutoff,C64,c2_mod_wheel_filter,1
+        Amplitude,C64,c2_mod_wheel_amp,1
+        LFO pitch depth,C10,c2_mod_wheel_lfo_pitch,1
+        LFO filter depth,C0,c2_mod_wheel_lfo_filter,1
+        LFO amplitude depth,C0,c2_mod_wheel_lfo_amp,1
+      CC1
+        Pitch,C64,c2_mod_cc1_pitch,1
+        Filter cutoff,C64,c2_mod_cc1_filter,1
+        Amplitude,C64,c2_mod_cc1_amp,1
+        LFO pitch depth,C0,c2_mod_cc1_lfo_pitch,1
+        LFO filter depth,C0,c2_mod_cc1_lfo_filter,1
+        LFO amplitude depth,C0,c2_mod_cc1_lfo_amp,1
+      CC2
+        Pitch,C64,c2_mod_cc2_pitch,1
+        Filter cutoff,C64,c2_mod_cc2_filter,1
+        Amplitude,C64,c2_mod_cc2_amp,1
+        LFO pitch depth,C0,c2_mod_cc2_lfo_pitch,1
+        LFO filter depth,C0,c2_mod_cc2_lfo_filter,1
+        LFO amplitude depth,C0,c2_mod_cc2_lfo_amp,1
+    Key range
+      Lower,C0,c2_key_lower,3
+      Upper,C26,c2_key_upper,3
+    
+    
+  Channel 3
+    Enable,C127,c3_en,0
+    Volume,C127,c3_vol,1
+    Pan,C64,c3_pan,1
+    Patch,C0,c3_patch,2
+    Reverb send,C0,c3_rev_send,1
+    Chorus send,C0,c3_cho_send,1
+    Fine tune,C64,c3_ft,1
+    Vibrate
+      Rate,C64,c3_vib_rate,1
+      Depth,C64,c3_vib_depth,1
+      Delay,C64,c3_vib_delay,1
+    Filter
+      Cutoff,C64,c3_filter_cutoff,1
+      Resonance,C64,c3_filter_res,1
+    Envelope
+      Attack,C64,c3_env_attack,1
+      Decay,C64,c3_env_decay,1
+      Release,C64,c3_env_release,1
+    Modulation
+      Pitch bend
+        Pitch,C66,c3_mod_bend_pitch,1
+        Filter cutoff,C64,c3_mod_bend_filter,1
+        Amplitude,C64,c3_mod_bend_amp,1
+        LFO pitch depth,C0,c3_mod_bend_lfo_pitch,1
+        LFO filter depth,C0,c3_mod_bend_lfo_filter,1
+        LFO amplitude depth,C0,c3_mod_bend_lfo_amp,1
+      Mod wheel
+        Pitch,C64,c3_mod_wheel_pitch,1
+        Filter cutoff,C64,c3_mod_wheel_filter,1
+        Amplitude,C64,c3_mod_wheel_amp,1
+        LFO pitch depth,C10,c3_mod_wheel_lfo_pitch,1
+        LFO filter depth,C0,c3_mod_wheel_lfo_filter,1
+        LFO amplitude depth,C0,c3_mod_wheel_lfo_amp,1
+      CC1
+        Pitch,C64,c3_mod_cc1_pitch,1
+        Filter cutoff,C64,c3_mod_cc1_filter,1
+        Amplitude,C64,c3_mod_cc1_amp,1
+        LFO pitch depth,C0,c3_mod_cc1_lfo_pitch,1
+        LFO filter depth,C0,c3_mod_cc1_lfo_filter,1
+        LFO amplitude depth,C0,c3_mod_cc1_lfo_amp,1
+      CC2
+        Pitch,C64,c3_mod_cc2_pitch,1
+        Filter cutoff,C64,c3_mod_cc2_filter,1
+        Amplitude,C64,c3_mod_cc2_amp,1
+        LFO pitch depth,C0,c3_mod_cc2_lfo_pitch,1
+        LFO filter depth,C0,c3_mod_cc2_lfo_filter,1
+        LFO amplitude depth,C0,c3_mod_cc2_lfo_amp,1
+    Key range
+      Lower,C0,c3_key_lower,3
+      Upper,C26,c3_key_upper,3
+    
+    
+  Channel 4
+    Enable,C127,c4_en,0
+    Volume,C127,c4_vol,1
+    Pan,C64,c4_pan,1
+    Patch,C0,c4_patch,2
+    Reverb send,C0,c4_rev_send,1
+    Chorus send,C0,c4_cho_send,1
+    Fine tune,C64,c4_ft,1
+    Vibrate
+      Rate,C64,c4_vib_rate,1
+      Depth,C64,c4_vib_depth,1
+      Delay,C64,c4_vib_delay,1
+    Filter
+      Cutoff,C64,c4_filter_cutoff,1
+      Resonance,C64,c4_filter_res,1
+    Envelope
+      Attack,C64,c4_env_attack,1
+      Decay,C64,c4_env_decay,1
+      Release,C64,c4_env_release,1
+    Modulation
+      Pitch bend
+        Pitch,C66,c4_mod_bend_pitch,1
+        Filter cutoff,C64,c4_mod_bend_filter,1
+        Amplitude,C64,c4_mod_bend_amp,1
+        LFO pitch depth,C0,c4_mod_bend_lfo_pitch,1
+        LFO filter depth,C0,c4_mod_bend_lfo_filter,1
+        LFO amplitude depth,C0,c4_mod_bend_lfo_amp,1
+      Mod wheel
+        Pitch,C64,c4_mod_wheel_pitch,1
+        Filter cutoff,C64,c4_mod_wheel_filter,1
+        Amplitude,C64,c4_mod_wheel_amp,1
+        LFO pitch depth,C10,c4_mod_wheel_lfo_pitch,1
+        LFO filter depth,C0,c4_mod_wheel_lfo_filter,1
+        LFO amplitude depth,C0,c4_mod_wheel_lfo_amp,1
+      CC1
+        Pitch,C64,c4_mod_cc1_pitch,1
+        Filter cutoff,C64,c4_mod_cc1_filter,1
+        Amplitude,C64,c4_mod_cc1_amp,1
+        LFO pitch depth,C0,c4_mod_cc1_lfo_pitch,1
+        LFO filter depth,C0,c4_mod_cc1_lfo_filter,1
+        LFO amplitude depth,C0,c4_mod_cc1_lfo_amp,1
+      CC2
+        Pitch,C64,c4_mod_cc2_pitch,1
+        Filter cutoff,C64,c4_mod_cc2_filter,1
+        Amplitude,C64,c4_mod_cc2_amp,1
+        LFO pitch depth,C0,c4_mod_cc2_lfo_pitch,1
+        LFO filter depth,C0,c4_mod_cc2_lfo_filter,1
+        LFO amplitude depth,C0,c4_mod_cc2_lfo_amp,1
+    Key range
+      Lower,C0,c4_key_lower,3
+      Upper,C26,c4_key_upper,3
+    
+    
+Effects
+  Reverb
+    Type,C4,rev_type,4
+    Volume,C10,rev_vol,1
+    Time,C80,rev_time,1
+    Feedback,C0,rev_fb,1
+
+  Chorus
+    Type,C2,cho_type,5
+    Volume,C90,cho_vol,1
+    Delay,C40,cho_del,1
+    Feedback,C7,cho_fb,1
+    Rate,C9,cho_rate,1
+    Depth,C13,cho_depth,1
+
+General
+  Master Volume,C127,mstr_vol,1
+  Tempo,C100,mstr_tempo,1
+  Quantize,C0,mstr_quant,6
+  LFO Mod Wheel,C40,mod_lfo_rate,1
+  Tuning,C0,mstr_tuning,1
+  Scale,C0,mstr_scale,7
+
+Drums
+  Enable,C0,drum_en,0
+  Kit,C0,drum_kit,8
+  Pattern 1,C0,drum_pat0,9
+  Pattern 2,C1,drum_pat1,9
+  Pattern 3,C2,drum_pat2,9
+  Pattern 4,C3,drum_pat3,9
+  Chorus send,C0,drum_cho_send,1
+  Reverb send,C0,drum_rev_send,1
+
+Arpegiator
+  Enable,C0,arp_en,0
+  Pattern,C0,arp_pat,10
+
+Settings
+  Save,A0,save
+  Restore,A1,restore
+  Reset,A2,reset
+
+

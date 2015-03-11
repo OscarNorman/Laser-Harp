@@ -31,11 +31,20 @@ for l in fileinput.input():
     menu[-1][2] = n
 
   # Truncate other levels off
-  parents = parents[0:level+1]
+  while len(parents) > level+1:
+    menu.append([n, parents[-1], -3, -1, ["Back"]]);
+    n = n + 1
+    parents.pop()
 
   # Store (number, parent number, selection number, ctrl, text info)
-  menu.append([n, parents[-1], 0, 0, text]);
+  menu.append([n, parents[-1], 0, -1, text]);
   n = n + 1
+
+# Truncate other levels off
+while len(parents) > level+1:
+  menu.append([n, parents[-1], -3, 0, ["Back"] ]);
+  n = n + 1
+  parents.pop()
 
 # Print out the select definitions
 print "/* Control/action definitions */"
@@ -101,6 +110,7 @@ p = -2
 s = 0
 e = 0
 ud = 0
+ctrl_type = 0
 print "/* ------------------ The menu structure ----------------- */"
 
 for m in menu:
@@ -124,7 +134,10 @@ for m in menu:
   ctrl = m[3] 
 
   # Find the control type
-  ctrl_type = -1
+  if sel == -1:
+    ctrl_type = m[4][3]
+  else:
+    ctrl_type = -1
 
   # Print the menu entry information
   print "/*  "+str(n).ljust(5)+": "+str(ud).rjust(6)+" | "+str(sel).rjust(6)+" | "+str(ctrl).rjust(6)+" | "+m[4][0].ljust(20)+" */"

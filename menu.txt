@@ -174,59 +174,6 @@ Channel options
       Upper,C26,c3_key_upper,3
     
     
-  Channel 4
-    Enable,C127,c4_en,0
-    Volume,C127,c4_vol,1
-    Pan,C64,c4_pan,1
-    Patch,C0,c4_patch,2
-    Reverb send,C0,c4_rev_send,1
-    Chorus send,C0,c4_cho_send,1
-    Fine tune,C64,c4_ft,1
-    Vibrate
-      Rate,C64,c4_vib_rate,1
-      Depth,C64,c4_vib_depth,1
-      Delay,C64,c4_vib_delay,1
-    Filter
-      Cutoff,C64,c4_filter_cutoff,1
-      Resonance,C64,c4_filter_res,1
-    Envelope
-      Attack,C64,c4_env_attack,1
-      Decay,C64,c4_env_decay,1
-      Release,C64,c4_env_release,1
-    Modulation
-      Pitch bend
-        Pitch,C66,c4_mod_bend_pitch,1
-        Filter cutoff,C64,c4_mod_bend_filter,1
-        Amplitude,C64,c4_mod_bend_amp,1
-        LFO pitch depth,C0,c4_mod_bend_lfo_pitch,1
-        LFO filter depth,C0,c4_mod_bend_lfo_filter,1
-        LFO amplitude depth,C0,c4_mod_bend_lfo_amp,1
-      Mod wheel
-        Pitch,C64,c4_mod_wheel_pitch,1
-        Filter cutoff,C64,c4_mod_wheel_filter,1
-        Amplitude,C64,c4_mod_wheel_amp,1
-        LFO pitch depth,C10,c4_mod_wheel_lfo_pitch,1
-        LFO filter depth,C0,c4_mod_wheel_lfo_filter,1
-        LFO amplitude depth,C0,c4_mod_wheel_lfo_amp,1
-      CC1
-        Pitch,C64,c4_mod_cc1_pitch,1
-        Filter cutoff,C64,c4_mod_cc1_filter,1
-        Amplitude,C64,c4_mod_cc1_amp,1
-        LFO pitch depth,C0,c4_mod_cc1_lfo_pitch,1
-        LFO filter depth,C0,c4_mod_cc1_lfo_filter,1
-        LFO amplitude depth,C0,c4_mod_cc1_lfo_amp,1
-      CC2
-        Pitch,C64,c4_mod_cc2_pitch,1
-        Filter cutoff,C64,c4_mod_cc2_filter,1
-        Amplitude,C64,c4_mod_cc2_amp,1
-        LFO pitch depth,C0,c4_mod_cc2_lfo_pitch,1
-        LFO filter depth,C0,c4_mod_cc2_lfo_filter,1
-        LFO amplitude depth,C0,c4_mod_cc2_lfo_amp,1
-    Key range
-      Lower,C0,c4_key_lower,3
-      Upper,C26,c4_key_upper,3
-    
-    
 Effects
   Reverb
     Type,C4,rev_type,4
@@ -264,9 +211,8 @@ Arpegiator
   Enable,C0,arp_en,0
   Pattern,C0,arp_pat,10
 
-Settings
-  Save,A0,save
-  Restore,A1,restore
-  Reset,A2,reset
+Save,A0,save
+Restore,A1,restore
+Reset,A2,reset
 
 
